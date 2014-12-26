@@ -14,6 +14,7 @@
 		5D8BD9B91A4D93D10009B01D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8BD9B81A4D93D10009B01D /* Images.xcassets */; };
 		5D8BD9BC1A4D93D10009B01D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D8BD9BA1A4D93D10009B01D /* LaunchScreen.xib */; };
 		5D8BD9C81A4D93D10009B01D /* OverDueTaskListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BD9C71A4D93D10009B01D /* OverDueTaskListTests.m */; };
+		5D8BD9D31A4D95F60009B01D /* CCAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8BD9D21A4D95F60009B01D /* CCAddTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5D8BD9C11A4D93D10009B01D /* OverDueTaskListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverDueTaskListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8BD9C61A4D93D10009B01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D8BD9C71A4D93D10009B01D /* OverDueTaskListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverDueTaskListTests.m; sourceTree = "<group>"; };
+		5D8BD9D11A4D95F60009B01D /* CCAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAddTaskViewController.h; sourceTree = "<group>"; };
+		5D8BD9D21A4D95F60009B01D /* CCAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAddTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				5D8BD9B21A4D93D10009B01D /* ViewController.h */,
 				5D8BD9B31A4D93D10009B01D /* ViewController.m */,
 				5D8BD9B51A4D93D10009B01D /* Main.storyboard */,
+				5D8BD9D11A4D95F60009B01D /* CCAddTaskViewController.h */,
+				5D8BD9D21A4D95F60009B01D /* CCAddTaskViewController.m */,
 				5D8BD9B81A4D93D10009B01D /* Images.xcassets */,
 				5D8BD9BA1A4D93D10009B01D /* LaunchScreen.xib */,
 				5D8BD9AB1A4D93D10009B01D /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8BD9B41A4D93D10009B01D /* ViewController.m in Sources */,
+				5D8BD9D31A4D95F60009B01D /* CCAddTaskViewController.m in Sources */,
 				5D8BD9B11A4D93D10009B01D /* AppDelegate.m in Sources */,
 				5D8BD9AE1A4D93D10009B01D /* main.m in Sources */,
 			);
