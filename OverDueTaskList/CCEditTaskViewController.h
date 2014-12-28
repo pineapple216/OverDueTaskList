@@ -10,4 +10,11 @@
 
 @interface CCEditTaskViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UITextView *textView;
+@property (strong, nonatomic) IBOutlet UIDatePicker *datePicker;
+
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *saveBarButtonItemPressed;
+
+
 @end
